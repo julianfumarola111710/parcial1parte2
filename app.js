@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("btnCalcular").addEventListener("click", calcular);
 });
 
+//Hola soy Leonardo Pérez
+
 function calcular() {
   const op = document.getElementById("operacion").value;
   const v1 = parseFloat(document.getElementById("valor1").value);
